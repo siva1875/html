@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: rgb(255, 248, 248);
+}
+.hero {
+    background-image: url('https://cdn.create.vista.com/downloads/714d38cd-e28a-4f82-bfbf-a86cf398c246_640.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px black;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.section {
+    padding: 20px;
+    text-align: center;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.product {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}
